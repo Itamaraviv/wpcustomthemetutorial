@@ -11,6 +11,7 @@
     Text Domain: customtheme
 */
 
+/* Custom background and text color for Bootstrap jumbotron */
 .jumbotron {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2a97e0+25,7db9e8+100 */
     background: #1e5799; /* Old browsers */
