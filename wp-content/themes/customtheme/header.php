@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section
+ *
+ *
+ * @package CustomeTheme
+ * @since Custom Theme 1.0
+ */
+
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
