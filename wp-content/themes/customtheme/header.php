@@ -18,7 +18,7 @@
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php body_class(); ?>>
         <nav class="navbar gradient-bg main-custom-nav">
             <div class="container">
                 <div class="navbar-header">
