@@ -26,5 +26,7 @@
             <?php the_content(); ?>
         <?php endwhile ?>
     <?php endif; ?>
+    
+    <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
