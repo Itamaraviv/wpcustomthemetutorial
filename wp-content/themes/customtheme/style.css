@@ -16,6 +16,10 @@ body {
     padding-bottom: 60px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Custom background and text color for Bootstrap jumbotron */
 .gradient-bg {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2a97e0+25,7db9e8+100 */
@@ -28,6 +32,10 @@ body {
 }
 
 /* Navigation styles */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main-custom-nav {
     border-radius: 0;
 }

@@ -15,12 +15,12 @@
     <?php the_content(); ?>
     <?php
         wp_link_pages( array(
-            'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages: ', 'customtheme') . '</span>',
+            'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages', 'customtheme') . '</span>',
             'after'       => '</div>',
-            'link_before' => '<span>',
+            'link_before' => '<span',
             'link_after'  => '</span>',
-            'pagelink'    => '<span class="screen-reader-text">' . __('Page-', 'customtheme') . '</span>%',
-            'seperator'   => '<span class="screen-reader-text">, </span>'
+            'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'customtheme' ) . '</span>%',
+            'separator'   => '<span class="screen-reader-text">, </span>'
         ));
     ?>
 </div>

@@ -4,6 +4,7 @@ if ( ! function_exists('enqueue_custom_styles') ) :
 function enqueue_customtheme_styles() {
     wp_enqueue_script('bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array('jquery'));
     wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+    wp_enqueue_style('googlefont', '//fonts.googleapis.com/css?family=Montserrat:400,700');
     wp_enqueue_style('customtheme-style', get_stylesheet_uri() );
 }
 endif;
