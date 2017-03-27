@@ -11,6 +11,11 @@
     Text Domain: customtheme
 */
 
+body {
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
 /* Custom background and text color for Bootstrap jumbotron */
 .gradient-bg {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2a97e0+25,7db9e8+100 */
@@ -22,6 +27,7 @@
     color: white;
 }
 
+/* Navigation styles */
 .main-custom-nav {
     border-radius: 0;
 }
@@ -45,8 +51,11 @@
     background-color: white;
 }
 
+/* End Navigation styles */
+
+/* Footer styles */
 #site-footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
@@ -54,3 +63,5 @@
     border-top: 1px solid lightgray;
     padding-top: 16px;
 }
+
+/* End Footer styles */
